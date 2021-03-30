@@ -57,3 +57,9 @@ variable "enable_approval_rules" {
   type    = bool
   default = false
 }
+
+variable "deploy_key" {
+  type    = string
+  default = nil
+}
+
