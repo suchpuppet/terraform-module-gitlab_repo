@@ -60,6 +60,6 @@ variable "enable_approval_rules" {
 
 variable "deploy_key" {
   type    = string
-  default = nil
+  default = null
 }
 
